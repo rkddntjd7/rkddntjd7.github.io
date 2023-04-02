@@ -1,10 +1,10 @@
 # Site settings
 title: Kang Woo Sung
 email: rkddntjd7@naver.com
-url: http://rkddntjd7.github.io/
+url: https://https://rkddntjd7.github.io/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer"
+skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -25,27 +25,27 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary:  354649 #80B3FF
-  primary-rgb: 6C7A89 #"128,179,255"
-  secondary: A3C6C4 #FD6E8A
-  secondary-dark: E0E7E9 #A2122F
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: rkddntjd7
+  copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: kakaotalk
+  - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
     url:
-  - title: instagram
+  - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: twitter
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
