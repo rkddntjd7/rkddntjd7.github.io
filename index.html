@@ -1,3 +1,319 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>강우성's Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>    
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-6">
+                        <a href="#">
+                            강우성's Portfolio
+                        </a>
+                    </div>
+                    <nav class="col-6 col-md-12">
+                        <ul class="gnb">
+                            <li>
+                                <a class="scroll" href="#aboutme">About Me</a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#skills">Skills</a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#projects">Projects</a>
+                            </li>
+                        </ul>
+                    </nav>
+                        <a href="#" class="ham">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="section-box col-12">
+                    <h1>강우성's Portfolio</h1>
+                    <p>
+                        안녕하세요.
+                        <br>
+                        훌륭한 개발자가 꿈인 강우성입니다.
+                        <br>
+                        잘부탁드립니다. :)
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="aboutme" id="aboutme">
+            <div class="container" >
+                <div class="aboutme-title col-12">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="myimg col-6 col-md-12">
+                        <img src="images/myimg.png" alt="me">
+                    </div>
+                    <div class="myinfo col-6 col-md-12">
+                        <ul>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>이름 :</span>
+                                    <p>강우성</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>생년월일 :</span>
+                                    <p>2000.02.08</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>주소지 :</span>
+                                    <p>인천광역시 서구 아라동</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>연락처 :</span>
+                                    <p>010-4999-3289</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>이메일 :</span>
+                                    <p>rkddntjd7@naver.com</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills" id="skills">
+            <div class="container">
+                <div class="skill-title col-12">
+                    <h1>Skills</h1>
+                </div>
+                <div class="row">
+                    <div class="front-skill col-6 col-md-12">
+                        <div class="skillbox">
+                            <h1>FrontEnd</h1>
+                            <img src="images/frontend.png" alt="front">
+                        </div>
+                    </div>
+                    <div class="back-skill col-6 col-md-12">
+                        <div class="skillbox">
+                            <h1>BackEnd</h1>
+                            <img src="images/backend.png" alt="front">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects col-12" id="projects">
+            <div class="container">
+                <div class="projects-title col-12">
+                    <h1>Projects</h1>
+                </div>
+                <div class="projects-content">
+                    <!--loop-->
+                    <div class="project">
+                        <div class="project-title">
+                            <h1>다음 카페 사이트 제작</h1>
+                            <p>2023.02~2023.03</p>
+                        </div>
+                        <div class="row">
+                            <div class="project-images col-6 col-md-12">
+                                <img src="images/cafework .png" alt="">
+                            </div>
+                            <div class="project-info col-6 col-md-12">
+                                <p>
+                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
+                                    피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
+                                    가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
+                                    목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
+                                    인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
+                                    안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
+                                    맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                </p>
+                                <p>
+                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
+                                        피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
+                                        가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
+                                        목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
+                                        인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
+                                        안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
+                                        맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>주요기능</span>
+                                        <p>청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다.</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>GitHub</span>
+                                        <p>
+                                            <a href="https://github.com/rkddntjd7/cafe.work" target="_blank">https://github.com/rkddntjd7/cafe.work</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>FrontEnd</span>
+                                        <p>Html, Css, JavaScript, Jquery</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/loop-->
+                    <div class="project">
+                        <div class="project-title">
+                            <h1>다음 카페 사이트 제작</h1>
+                            <p>2023.02~2023.03</p>
+                        </div>
+                        <div class="row">
+                            <div class="project-images col-6 col-md-12">
+                                <img src="images/cafework .png" alt="">
+                            </div>
+                            <div class="project-info col-6 col-md-12">
+                                <p>
+                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
+                                    피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
+                                    가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
+                                    목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
+                                    인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
+                                    안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
+                                    맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                </p>
+                                <p>
+                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
+                                        피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
+                                        가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
+                                        목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
+                                        인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
+                                        안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
+                                        맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>주요기능</span>
+                                        <p>청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다.</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>GitHub</span>
+                                        <p>
+                                            <a href="https://github.com/rkddntjd7/cafe.work" target="_blank">https://github.com/rkddntjd7/cafe.work</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>FrontEnd</span>
+                                        <p>Html, Css, JavaScript, Jquery</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-title">
+                            <h1>다음 카페 사이트 제작</h1>
+                            <p>2023.02~2023.03</p>
+                        </div>
+                        <div class="row">
+                            <div class="project-images col-6 col-md-12">
+                                <img src="images/cafework .png" alt="">
+                            </div>
+                            <div class="project-info col-6 col-md-12">
+                                <p>
+                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
+                                    피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
+                                    가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
+                                    목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
+                                    인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
+                                    안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
+                                    맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                </p>
+                                <p>
+                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
+                                        피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
+                                        가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
+                                        목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
+                                        인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
+                                        안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
+                                        맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>주요기능</span>
+                                        <p>청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다.</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>GitHub</span>
+                                        <p>
+                                            <a href="https://github.com/rkddntjd7/cafe.work" target="_blank">https://github.com/rkddntjd7/cafe.work</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <span>FrontEnd</span>
+                                        <p>Html, Css, JavaScript, Jquery</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="col-12">
+            <div class="container">
+                <div class="row">
+                    <a href="https://github.com/rkddntjd7" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="copy">
+                    <p> &copy; 2023. Kang Woo Sung. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/animate.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
