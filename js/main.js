@@ -7,7 +7,13 @@ $(function () {
     $('.ham').click(function(){
         $(this).toggleClass('close')
         $('nav').stop().slideToggle();
+        $('.bg-shadow').css("display", "block");
     })
+
+    // $('.bg-shadow').click(function(){
+    //     $('nav').slideToggle();
+    //     $('.bg-shadow').css("display", "none");
+    // })
 
   
 

@@ -236,19 +236,15 @@
     }
 
     /************************/
-
-    .logo {
-        display: none;
-    }
-
     nav {
         display: none;
+        top: 0;
+        z-index: 2;
     }
 
     ul.gnb {
         display: block;
         background: #ddd;
-        opacity: 0.9;
         text-align: center;
         float: none;
         margin: 0;
@@ -262,11 +258,15 @@
 
 
     .myinfo {
-        padding-left: 100px;
+        padding-left: 30px;
+    }
+
+    .project-title h1 {
+        font-size: 25px;
     }
 
     section .section-box h1 {
-        font-size: 35px;
+        font-size: 20px;
     } 
 
     a.ham {
@@ -274,6 +274,8 @@
         position: absolute;
         right: 0;
         top: 25px;
+        cursor: pointer;
+        z-index: 2;
     }
 
     a.ham span {
@@ -291,6 +293,18 @@
     a.ham.close span:nth-child(3) {
         transform: translateY(-10px) rotate(45deg);
     }
+
+    /* .bg-shadow {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: rgba(0,0,0,0.7);
+        cursor: pointer;
+    } */
 
 
 }

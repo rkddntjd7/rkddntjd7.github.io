@@ -52,11 +52,10 @@ header .row {
 nav ul {
     list-style: none;
     display: flex;
-    float: right;
+    justify-content: space-evenly;
 }
 
 nav>ul>li {
-    padding-left: 30px;
     font-weight: bold;
 }
 
@@ -90,11 +89,15 @@ nav>ul>li>a:hover {
     top: 20px;
 }
 
+.bg-shadow {
+  
+}
+
 /*****************/
 
 section {
     max-width: 100%;
-    height: 550px;
+    height: 100%;
     background: url(../images/main2.png) no-repeat ;
     background-size: 100%;
 }   
@@ -102,8 +105,8 @@ section {
 
 .section-box {
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 17%;
+    padding-bottom: 10%;
     color: #fff;
 }
 
@@ -174,6 +177,7 @@ section {
 
 .myinfo ul li {
     padding: 15px;
+    white-space: nowrap;
 }
 
 /*****************/
@@ -249,39 +253,47 @@ section {
 
 .project-title {
     text-align: center;
+    padding-top: 3%;
 }
 
 .project-images {
     text-align: center;
+    padding-top: 10%;
 }
 
 .project-images img {
     max-width: 100%;
-    width: 500px;
-    height: 550px;
     border: 1px solid #ddd;
+    border-radius: 10px;
 }
-
 
 .project-info ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-top: 30px;
+    padding-top: 10px;
     border-top: 1px solid #c8c8c8;
 }
 
 .project-info p:nth-child(2) {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.project-info p:nth-child(1),
+.project-info p:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
 }
 
 .project-info ul li {
     display: flex;
     align-items: center;
+    padding-left: 20px;
 }
 
 .project-info ul li a {
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
 .project-info ul li a:hover {
@@ -290,6 +302,7 @@ section {
 
 .project-info ul li span {
     padding-right: 30px;
+    white-space: nowrap;
 }
 
 footer {
