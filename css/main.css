@@ -353,10 +353,12 @@ section {
 .project-images {
     text-align: center;
     padding-top: 10%;
+    height: 100%;
 }
 
 .project-images img {
-    max-width: 100%;
+    width: 300px;
+    height: 400px;
     border: 1px solid #ddd;
     border-radius: 10px;
 }
@@ -398,6 +400,13 @@ section {
     padding-right: 30px;
     white-space: nowrap;
 }
+
+.slider {
+    top: -25%;
+}
+
+
+
 
 footer {
     width: 100%;
