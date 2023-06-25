@@ -244,12 +244,12 @@
 
     ul.gnb {
         display: block;
-        background: #ddd;
+        background: #96A8B2;
         text-align: center;
         float: none;
         margin: 0;
         padding: 0;
-        height: 200px;
+        height: 250px;
     }
 
     ul.gnb li {
@@ -293,6 +293,36 @@
     a.ham.close span:nth-child(3) {
         transform: translateY(-10px) rotate(45deg);
     }
+
+    .github {
+        margin-bottom: 20px;
+    }
+
+    .velog {
+        margin-left: 30px;
+    }
+
+    .FrontEnd {
+        margin-bottom: 20px;
+    }
+
+    .BackEnd {
+        margin-bottom: 20px;
+    }
+
+    .Tool {
+        margin-bottom: 20px;
+    }
+
+    .FrontEnd,
+.BackEnd,
+.Tool {
+  margin-left: 50px;
+}
+
+.ETC {
+    margin-left: 10px;
+}
 
     /* .bg-shadow {
         display: none;
