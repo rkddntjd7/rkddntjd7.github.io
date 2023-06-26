@@ -12,7 +12,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         >
-        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="css/animate.css">
@@ -49,14 +49,16 @@
                             <span></span>
                             <span></span>
                         </a>
-                        <div class="bg-shadow"></div>
+                        
                 </div>
             </div>
         </header>
+
+        <!--/header -->
         <section>
             <div class="container">
                 <div class="section-box col-12">
-                    <h1>강우성's Portfolio</h1>
+                    <h1 class="animate__animated animate__slideInLeft">강우성's Portfolio</h1>
                     <p>
                         안녕하세요.
                         <br>
@@ -67,6 +69,9 @@
                 </div>
             </div>
         </section>
+
+        <!--banner -->
+
         <div class="aboutme" id="aboutme">
             <div class="container" >
                 <div class="aboutme-title col-12">
@@ -118,6 +123,8 @@
                 </div>
             </div>
         </div>
+
+        <!--/aboutme-->
         <div class="archiving" id="archiving">
             <div class="container">
                 <div class="archiving-title col-12">
@@ -143,6 +150,8 @@
                 </div>
             </div>
         </div>
+
+        <!--/archiving-->
         <div class="skills" id="skills">
             <div class="container">
                 <div class="skill-title col-12">
@@ -193,6 +202,8 @@
                 </div>
             </div>
         </div>
+
+        <!--/skills-->
         <div class="projects col-12" id="projects">
             <div class="container">
                 <div class="projects-title col-12">
@@ -209,12 +220,12 @@
                             <div class="project-images col-6 col-md-12">
                                 <div class="slider">
                                     <img src="images/laundry1.png" alt="laundry1">
-                                    <img src="images/laundry2.png" alt="laundry1">
-                                    <img src="images/laundry3.png" alt="laundry1">
-                                    <img src="images/laundry4.png" alt="laundry1">
-                                    <img src="images/laundry5.png" alt="laundry1">
-                                    <img src="images/laundry6.png" alt="laundry1">
-                                    <img src="images/laundry7.png" alt="laundry1">
+                                    <img src="images/laundry2.png" alt="laundry2">
+                                    <img src="images/laundry3.png" alt="laundry3">
+                                    <img src="images/laundry4.png" alt="laundry4">
+                                    <img src="images/laundry5.png" alt="laundry5">
+                                    <img src="images/laundry6.png" alt="laundry6">
+                                    <img src="images/laundry7.png" alt="laundry7">
                                 </div>
                             </div>
                             <div class="project-info col-6 col-md-12">
@@ -224,13 +235,17 @@
                                 </p>
                                 <p>
                                    이 프로젝트 전까지도 Jsp를 활용하여 프로젝트를 한 경험이있지만, 이 프로젝트를 통해 심화된 Jsp 기술들을 활용할 수 있게 되었습니다.
-                                   프로젝트 내에서 회원가입,  
+                                   프로젝트 내에서 반짝 배송 페이지, 명품관 페이지 등의 프론트 부분을 UI & UX에 깊게 고민하며 디자인하였습니다.
+                                   회원가입 및 예약리스트 페이지와 예약확인 페이지를 디자인하면 JSP를 활용하여 백앤드 작업을 진행하였습니다. <br><br>
+                                   AWS 클라우드를 활용하여 배포하는 과정에서 전반적인 배포과정과 AWS 사용법을 익혀서 유익했습니다. 또한 팀원들과 Git을 사용하여
+                                   협업하는 방법을 익혀 협업에서의 문제해결능력과 더 나은 방법을 배웠습니다.
                                 </p>
+                                
                                 <ul>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>주요기능</span>
-                                        <p>청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다.</p>
+                                        <p>세션을 이용한 로그인, 회원가입, <br> 게시판(댓글, 검색, 좋아요 기능 등), 예약</p>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
@@ -241,7 +256,7 @@
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>GitHub</span>
                                         <p>
-                                            <a href="https://github.com/rkddntjd7/cafe.work" target="_blank">https://github.com/rkddntjd7/cafe.work</a>
+                                            <a href="https://github.com/K-DoYeon/LaundryForYou" target="_blank">https://github.com/K-DoYeon/LaundryForYou</a>
                                         </p>
                                     </li>
                                 </ul>
@@ -251,98 +266,103 @@
                     <!--/loop-->
                     <div class="project">
                         <div class="project-title">
-                            <h1>다음 카페 사이트 제작</h1>
-                            <p>2023.02~2023.03</p>
+                            <h1>"withu" 미니 게임 사이트 개발</h1>
+                            <p>2023.03~2023.06 (6인 팀프로젝트)</p>
                         </div>
                         <div class="row">
                             <div class="project-images col-6 col-md-12">
-                                <img src="images/cafework2.png" alt="cafework">
+                                <div class="slider">
+                                    <img src="images/withu1.png" alt="withu1">
+                                    <img src="images/withu2.png" alt="withu2">
+                                    <img src="images/withu3.png" alt="withu3">
+                                    <img src="images/withu4.png" alt="withu4">
+                                    <img src="images/withu5.png" alt="withu5">
+                                    <img src="images/withu6.png" alt="withu6">
+                                    <img src="images/withu7.png" alt="withu7">
+                                </div>
                             </div>
                             <div class="project-info col-6 col-md-12">
                                 <p>
-                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
-                                    피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
-                                    가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
-                                    목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
-                                    인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
-                                    안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
-                                    맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                    미니 게임을 포함한 간단한 게임 사이트를 만들었습니다. 누구에게나 어렵지않고 쉽게 접근할 수 있는 게임이고,
+                                    로그인, 회원가입, 게시판 같은 백앤드 작업을 추가하여 사이트를 직접 디자인하고 제작하였습니다.
                                 </p>
                                 <p>
-                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
-                                        피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
-                                        가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
-                                        목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
-                                        인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
-                                        안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
-                                        맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                    처음으로 웹이 아닌 자바스크립트를 활용한 미니게임을 개발하여 의미있는 프로젝트입니다.
+                                    캐릭터부터 게임, 웹 페이지 화면을 직접 디자인하여 제작하였습니다.
+                                    프로젝트 내에서 세션을 이용한 로그인을 제작하며 세션에 대한 이해도를 향상시켰습니다.
+                                    캐릭터 소개, 개발자 소개, 메인 페이지 일부 등 UI % UX에 깊게 고민하며 제작하였습니다. <br> <br>
+                                    Cafe24를 통해 배포하는 좋은 경험을 할 수 있는 프로젝트였고, 팀원들의 지인들에게 실제 설문을 받아
+                                    개발하면서 놓쳤던 부분들에 대한 피드백을 받았습니다. 실제 서비스를 하기 위해서는 다양한 부분에서 더 깊게
+                                    고민하고 개발해야한다는것을 깨달았습니다.
                                 </p>
                                 <ul>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>주요기능</span>
-                                        <p>청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다.</p>
+                                        <p>세션을 이용한 로그인, 회원가입, <br> 게시판(댓글, 검색 기능 등), 미니게임</p>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>사용기술</span>
-                                        <p>Html, Css, JavaScript, Jquery</p>
+                                        <p>Html, Css, JavaScript, Java(Jsp), AWS 클라우드, Git</p>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>GitHub</span>
                                         <p>
-                                            <a href="https://github.com/rkddntjd7/cafe.work" target="_blank">https://github.com/rkddntjd7/cafe.work</a>
+                                            <a href="https://github.com/myeongjin123/withU" target="_blank">https://github.com/myeongjin123/withU</a>
                                         </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    <!--/loop-->
                     <div class="project">
                         <div class="project-title">
-                            <h1>다음 카페 사이트 제작</h1>
-                            <p>2023.02~2023.03</p>
+                            <h1>리움 미술관 사이트 카피 제작</h1>
+                            <p>2023.02~2023.03 (6인 팀프로젝트)</p>
                         </div>
                         <div class="row">
                             <div class="project-images col-6 col-md-12">
-                                <img src="images/cafework2.png" alt="cafework">
+                                <div class="slider">
+                                <img src="images/leeum1.png" alt="leeum1">
+                                <img src="images/leeum2.png" alt="leeum2">
+                                <img src="images/leeum3.png" alt="leeum3">
+                                <img src="images/leeum4.png" alt="leeum4">
+                                <img src="images/leeum5.png" alt="leeum5">
+                                </div>
                             </div>
                             <div class="project-info col-6 col-md-12">
                                 <p>
-                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
-                                    피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
-                                    가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
-                                    목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
-                                    인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
-                                    안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
-                                    맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                    리움 미술관이라는 실제 웹페이지를 참고하고 카피하여 제작한 사이트입니다.
+                                    팀원들과 의논하며 실제 웹사이트에서 변경하고싶은 부분이나 아쉬운 부분을 수정하였습니다.
                                 </p>
                                 <p>
-                                    청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다. 
-                                        피는 고행을 맺어, 얼음 보이는 것이다. 공자는 열매를 심장의 사막이다. 
-                                        가치를 인간에 것은 이 영락과 인간의 아니한 기관과 있으며, 봄바람이다. 
-                                        목숨을 무엇이 시들어 두기 사라지지 돋고, 곳으로 끓는다. 
-                                        인생에 그들의 오아이스도 그들에게 있으랴? 그들은 같지 꽃이 스며들어 사막이다. 
-                                        안고, 우리는 산야에 청춘의 운다. 뛰노는 인도하겠다는 산야에 귀는 수 그러므로 맺어, 있는가? 
-                                        맺어, 들어 가슴이 넣는 피어나기 어디 봄바람이다.
+                                    프로젝트의 조장을 맡은 프로젝트입니다. 팀원들과 데이터베이스 공유를 위해 aws ec2를 직접 생성하여 팀원들과
+                                    공유하고 데이터베이스 공유라는 큰 문제를 해결했던 프로젝트입니다.
+                                    단순한 기능이지만 처음으로 Jsp를 활용한 백앤드 작업을 한 프로젝트입니다. 또한 팀원들과 Git을 사용하여
+                                    처음으로 협업한 프로젝트 이기도 합니다. 처음 Git을 사용하여 merge 등 협업 방법에 있어 서툴렀지만
+                                    6명의 팀원들과 고민하고 회의하면 문제를 해결해나갔습니다. <br> <br>
+                                    혼자 작업이 아닌 협업하는 방법의 중요함을 많이 깨달은 프로젝트입니다. 또한 본격적으로 백앤드 분야의
+                                    흥미를 느끼게 된 프로젝트입니다.
                                 </p>
                                 <ul>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>주요기능</span>
-                                        <p>청춘을 풍부하게 붙잡아 끓는다. 무엇을 꽃이 천하를 말이다.</p>
+                                        <p>세션을 이용한 로그인, 회원가입, <br> 게시판(댓글, 검색 기능 등)</p>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>사용기술</span>
-                                        <p>Html, Css, JavaScript, Jquery</p>
+                                        <p>Html, Css, JavaScript, Java(Jsp), AWS 클라우드, Git</p>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-info"></i> &nbsp;
                                         <span>GitHub</span>
                                         <p>
-                                            <a href="https://github.com/rkddntjd7/cafe.work" target="_blank">https://github.com/rkddntjd7/cafe.work</a>
+                                            <a href="https://github.com/rkddntjd7/leeum" target="_blank">https://github.com/rkddntjd7/leeum</a>
                                         </p>
                                     </li>
                                 </ul>
@@ -351,25 +371,29 @@
                     </div>
                 </div>
             </div>
+        
+
+            <!--projects-->
+            <footer class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <a href="https://github.com/rkddntjd7" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://velog.io/@rkddntjd7" target="_blank">
+                            <i class="fa-brands fa-vimeo-v"></i>
+                        </a>
+                    </div>
+                    <div class="copy">
+                        <p> &copy; 2023. Kang Woo Sung. All rights reserved.</p>
+                    </div>
+                </div>
+            
+            </footer>
         </div>
-        <footer class="col-12">
-            <div class="container">
-                <div class="row">
-                    <a href="https://github.com/rkddntjd7" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="https://www.instagram.com/wooo.___/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://velog.io/@rkddntjd7" target="_blank">
-                        <i class="fa-brands fa-vimeo-v"></i>
-                    </a>
-                </div>
-                <div class="copy">
-                    <p> &copy; 2023. Kang Woo Sung. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
         <script src="js/jquery-1.12.4.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/animate.min.js"></script>

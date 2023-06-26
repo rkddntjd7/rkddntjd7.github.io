@@ -7,16 +7,24 @@ $(function () {
     $('.ham').click(function(){
         $(this).toggleClass('close')
         $('nav').stop().slideToggle();
-        $('.bg-shadow').css("display", "block");
     })
 
-    // $('.bg-shadow').click(function(){
-    //     $('nav').slideToggle();
-    //     $('.bg-shadow').css("display", "none");
-    // })
-
-  
+    $(document).click(function(event) {
+        var target = $(event.target);
+        if (!target.closest('.ham').length && !target.closest('nav').length) {
+            $('.ham').removeClass('close');
+            $('nav').slideUp();
+        }
+    });
 
 }); //jquery
 
-$('.slider').slick();
+$('.slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
