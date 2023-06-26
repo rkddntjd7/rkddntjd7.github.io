@@ -236,13 +236,10 @@
     }
 
     /************************/
-    .logo {
-        margin-top: 10px;
-    }
 
     nav {
         display: none;
-        top: 0;
+        top: -2px;
         z-index: 2;
     }
 
@@ -325,7 +322,7 @@
     }
 
     .ETC {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
 }
