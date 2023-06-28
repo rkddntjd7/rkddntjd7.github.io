@@ -325,6 +325,10 @@
         margin-left: 20px;
     }
 
+    .info {
+        margin-left: 23px;
+    }
+
 }
 
 @media (max-width : 576px) {
